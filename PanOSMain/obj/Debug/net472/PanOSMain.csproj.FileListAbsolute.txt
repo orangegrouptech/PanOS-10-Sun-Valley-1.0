@@ -1,0 +1,34 @@
+C:\Users\Orange Group\source\repos\PanOSMain\bin\Debug\net472\PanOSMain.exe.config
+C:\Users\Orange Group\source\repos\PanOSMain\bin\Debug\net472\PanOSMain.exe
+C:\Users\Orange Group\source\repos\PanOSMain\bin\Debug\net472\PanOSMain.pdb
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\MainWindow.g.cs
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\App.g.cs
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\PanOSMain_MarkupCompile.cache
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\PanOSMain_MarkupCompile.lref
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\MainWindow.baml
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\PanOSMain.g.resources
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\PanOSMain.AssemblyInfoInputs.cache
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\PanOSMain.AssemblyInfo.cs
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\PanOSMain.csproj.CoreCompileInputs.cache
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\PanOSMain.exe
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\PanOSMain.pdb
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\Window1.g.cs
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\Window1.baml
+C:\Users\Orange Group\source\repos\PanOSMain\obj\Debug\net472\PanOSMain.csprojAssemblyReference.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\bin\Debug\net472\PanOSMain.exe.config
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\bin\Debug\net472\PanOSMain.exe
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\bin\Debug\net472\PanOSMain.pdb
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\MainWindow.g.cs
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\Window1.g.cs
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\App.g.cs
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain_MarkupCompile.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain_MarkupCompile.lref
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\MainWindow.baml
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\Window1.baml
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.g.resources
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.AssemblyInfoInputs.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.AssemblyInfo.cs
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.csproj.CoreCompileInputs.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.exe
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.pdb
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.csprojAssemblyReference.cache

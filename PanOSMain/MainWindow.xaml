@@ -1,0 +1,16 @@
+﻿<Window x:Name="Window" x:Class="PanOSMain.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PanOSMain"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="504" Width="481"
+        AllowsTransparency="True" WindowStyle="None" MouseLeftButtonDown="Window_MouseLeftButtonDown" MouseMove="Window_MouseMove" MouseLeftButtonUp="Window_MouseLeftButtonUp">
+    <Window.Background>
+        <ImageBrush ImageSource="/PanOS no bg.png"/>
+    </Window.Background>
+    <Grid RenderTransformOrigin="1.341,0.514">
+        <Button x:Name="whatHappenedButton" Content="Uhhh... what happened...?" HorizontalAlignment="Left" Margin="266,464,0,0" VerticalAlignment="Top" Width="205" Height="30" FontSize="15" Click="whatHappenedButton_Click" FontFamily="Microsoft Sans Serif"/>
+    </Grid>
+</Window>

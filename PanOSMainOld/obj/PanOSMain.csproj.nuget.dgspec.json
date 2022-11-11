@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\PanOSMain\\PanOSMain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\PanOSMain\\PanOSMain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\PanOSMain\\PanOSMain.csproj",
+        "projectName": "PanOSMain",
+        "projectPath": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\PanOSMain\\PanOSMain.csproj",
+        "packagesPath": "C:\\Users\\Orange Group\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\PanOSMain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Orange Group\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

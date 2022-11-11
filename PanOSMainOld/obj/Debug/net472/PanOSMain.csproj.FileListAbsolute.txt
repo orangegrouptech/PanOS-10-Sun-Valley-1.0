@@ -1,0 +1,12 @@
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.Form1.resources
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.Properties.Resources.resources
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.csproj.GenerateResource.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.AssemblyInfoInputs.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.AssemblyInfo.cs
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.csproj.CoreCompileInputs.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\bin\Debug\net472\PanOSMain.exe.config
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\bin\Debug\net472\PanOSMain.exe
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\bin\Debug\net472\PanOSMain.pdb
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.exe
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.pdb
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.Form2.resources

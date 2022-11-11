@@ -1,0 +1,13 @@
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\bin\Debug\net472\UpdateScreen.exe.config
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\bin\Debug\net472\UpdateScreen.exe
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\bin\Debug\net472\UpdateScreen.pdb
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.Form1.resources
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.Form2.resources
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.Properties.Resources.resources
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.csproj.GenerateResource.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.AssemblyInfoInputs.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.AssemblyInfo.cs
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.csproj.CoreCompileInputs.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.exe
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.pdb
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\UpdateScreen\obj\Debug\net472\UpdateScreen.csprojAssemblyReference.cache

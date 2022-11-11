@@ -1,0 +1,13 @@
+<project outputDir="C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\phase3\bin\Debug\net472\Confused (32-bit)" baseDir="C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\phase3\bin\Debug\net472" xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" preset="maximum" inherit="false">
+    <protection id="anti tamper" action="remove" />
+    <protection id="anti ildasm" />
+    <protection id="constants" />
+    <protection id="anti dump" />
+    <protection id="anti debug" />
+    <protection id="invalid metadata" />
+    <protection id="resources" />
+    <protection id="rename" />
+  </rule>
+  <module path="phase3 (32-bit).exe" />
+</project>

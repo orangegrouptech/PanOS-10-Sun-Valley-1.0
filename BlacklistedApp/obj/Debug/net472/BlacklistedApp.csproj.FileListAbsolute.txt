@@ -1,0 +1,23 @@
+C:\Users\Orange Group\source\repos\BlacklistedApp\obj\Debug\net472\BlacklistedApp.Form1.resources
+C:\Users\Orange Group\source\repos\BlacklistedApp\obj\Debug\net472\BlacklistedApp.Properties.Resources.resources
+C:\Users\Orange Group\source\repos\BlacklistedApp\obj\Debug\net472\BlacklistedApp.csproj.GenerateResource.cache
+C:\Users\Orange Group\source\repos\BlacklistedApp\obj\Debug\net472\BlacklistedApp.AssemblyInfoInputs.cache
+C:\Users\Orange Group\source\repos\BlacklistedApp\obj\Debug\net472\BlacklistedApp.AssemblyInfo.cs
+C:\Users\Orange Group\source\repos\BlacklistedApp\obj\Debug\net472\BlacklistedApp.csproj.CoreCompileInputs.cache
+C:\Users\Orange Group\source\repos\BlacklistedApp\bin\Debug\net472\BlacklistedApp.exe.config
+C:\Users\Orange Group\source\repos\BlacklistedApp\bin\Debug\net472\BlacklistedApp.exe
+C:\Users\Orange Group\source\repos\BlacklistedApp\bin\Debug\net472\BlacklistedApp.pdb
+C:\Users\Orange Group\source\repos\BlacklistedApp\obj\Debug\net472\BlacklistedApp.exe
+C:\Users\Orange Group\source\repos\BlacklistedApp\obj\Debug\net472\BlacklistedApp.pdb
+C:\Users\Orange Group\source\repos\BlacklistedApp\obj\Debug\net472\BlacklistedApp.csprojAssemblyReference.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\bin\Debug\net472\BlacklistedApp.exe.config
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\bin\Debug\net472\BlacklistedApp.exe
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\bin\Debug\net472\BlacklistedApp.pdb
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\obj\Debug\net472\BlacklistedApp.Form1.resources
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\obj\Debug\net472\BlacklistedApp.Properties.Resources.resources
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\obj\Debug\net472\BlacklistedApp.csproj.GenerateResource.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\obj\Debug\net472\BlacklistedApp.AssemblyInfoInputs.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\obj\Debug\net472\BlacklistedApp.AssemblyInfo.cs
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\obj\Debug\net472\BlacklistedApp.csproj.CoreCompileInputs.cache
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\obj\Debug\net472\BlacklistedApp.exe
+C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\BlacklistedApp\obj\Debug\net472\BlacklistedApp.pdb

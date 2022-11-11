@@ -1,0 +1,11 @@
+<project outputDir="C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\auth\bin\Release\Confused" baseDir="C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\auth\bin\Release" xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" preset="aggressive" inherit="false">
+    <protection id="anti tamper" action="remove" />
+    <protection id="anti ildasm" />
+    <protection id="resources" />
+    <protection id="anti debug" />
+    <protection id="anti dump" />
+    <protection id="invalid metadata" />
+  </rule>
+  <module path="auth.exe" />
+</project>
