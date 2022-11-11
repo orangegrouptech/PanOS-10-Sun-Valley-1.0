@@ -1,1 +1,8 @@
 .vs
+auth/obj
+BlacklistedApp/obj
+GoodbyeMBR/obj
+PanOSMain/obj
+PanOSMainOld/obj
+phase3/obj
+UpdateScreen/obj

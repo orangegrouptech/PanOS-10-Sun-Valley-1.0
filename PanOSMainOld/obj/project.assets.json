@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\PanOSMain\\PanOSMain.csproj",
+      "projectUniqueName": "C:\\Users\\Orange Group\\Documents\\GitHub\\PanOS-10-Sun-Valley-1.0\\PanOSMainOld\\PanOSMain.csproj",
       "projectName": "PanOSMain",
-      "projectPath": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\PanOSMain\\PanOSMain.csproj",
+      "projectPath": "C:\\Users\\Orange Group\\Documents\\GitHub\\PanOS-10-Sun-Valley-1.0\\PanOSMainOld\\PanOSMain.csproj",
       "packagesPath": "C:\\Users\\Orange Group\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\PanOSMain\\obj\\",
+      "outputPath": "C:\\Users\\Orange Group\\Documents\\GitHub\\PanOS-10-Sun-Valley-1.0\\PanOSMainOld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,7 +33,8 @@
         "net472"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net472": {
@@ -50,7 +51,7 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
