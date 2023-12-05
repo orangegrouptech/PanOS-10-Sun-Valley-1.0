@@ -32,3 +32,22 @@ C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Vall
 C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.exe
 C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.pdb
 C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\PanOSMain\obj\Debug\net472\PanOSMain.csprojAssemblyReference.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\bin\Debug\net472\PanOSMain.exe.config
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\bin\Debug\net472\PanOSMain.exe
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\bin\Debug\net472\PanOSMain.pdb
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain.csproj.AssemblyReference.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain.csproj.SuggestedBindingRedirects.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\MainWindow.g.cs
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\Window1.g.cs
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\App.g.cs
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain_MarkupCompile.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain_MarkupCompile.lref
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\MainWindow.baml
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\Window1.baml
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain.g.resources
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain.AssemblyInfoInputs.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain.AssemblyInfo.cs
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain.csproj.CoreCompileInputs.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain.exe
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\PanOSMain\obj\Debug\net472\PanOSMain.pdb

@@ -10,3 +10,17 @@ C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Vall
 C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\phase3\obj\Release\net472\phase3.csproj.CoreCompileInputs.cache
 C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\phase3\obj\Release\net472\phase3.exe
 C:\Users\Orange Group\Documents\Visual Studio Projects\Install PanOS 10 Sun Valley\phase3\obj\Release\net472\phase3.pdb
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\bin\Release\net472\phase3.exe.config
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\bin\Release\net472\phase3.exe
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\bin\Release\net472\phase3.pdb
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.csproj.AssemblyReference.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.Form1.resources
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.Properties.Resources.resources
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.csproj.GenerateResource.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.AssemblyInfoInputs.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.AssemblyInfo.cs
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.csproj.CoreCompileInputs.cache
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.exe
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.pdb

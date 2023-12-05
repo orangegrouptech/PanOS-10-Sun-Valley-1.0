@@ -1,8 +1,15 @@
 .vs
 auth/obj
+auth/bin
 BlacklistedApp/obj
+BlacklistedApp/bin
 GoodbyeMBR/obj
+GoodbyeMBR/bin
 PanOSMain/obj
+PanOSMain/bin
 PanOSMainOld/obj
+PanOSMainOld/bin
 phase3/obj
+phase3/bin
 UpdateScreen/obj
+UpdateScreen/bin

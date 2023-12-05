@@ -2,31 +2,26 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.7.2": {},
-    ".NETFramework,Version=v4.7.2/win7-x64": {}
+    ".NETFramework,Version=v4.7.2/win7-x86": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": []
   },
   "packageFolders": {
-    "C:\\Users\\Orange Group\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Orange Group\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\UpdateScreen\\UpdateScreen.csproj",
+      "projectUniqueName": "C:\\Users\\Orange Group\\Documents\\GitHub\\PanOS-10-Sun-Valley-1.0\\UpdateScreen\\UpdateScreen.csproj",
       "projectName": "PanOS 10 Update Assistant",
-      "projectPath": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\UpdateScreen\\UpdateScreen.csproj",
+      "projectPath": "C:\\Users\\Orange Group\\Documents\\GitHub\\PanOS-10-Sun-Valley-1.0\\UpdateScreen\\UpdateScreen.csproj",
       "packagesPath": "C:\\Users\\Orange Group\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\UpdateScreen\\obj\\",
+      "outputPath": "C:\\Users\\Orange Group\\Documents\\GitHub\\PanOS-10-Sun-Valley-1.0\\UpdateScreen\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Orange Group\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,11 +46,11 @@
     "frameworks": {
       "net472": {
         "targetAlias": "net472",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "win7-x64": {
+      "win7-x86": {
         "#import": []
       }
     }

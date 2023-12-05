@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dw9CVzk2/C0PJirNCq3sn2o0JRJibqaL3+M+gd/l2lbW4R0F7YOqsRNO70z/J1M3v60g+dlyos4MKBXxb+0pxA==",
+  "dgSpecHash": "+WX/Pe8tdqmNNqKZC0h0xFhn+BNpnUNJb0+RrZOCKf2eN8d0KSN9Ij4QTRxxq+RqqR4+k9ra1U28E+5r0bQvYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Orange Group\\Documents\\Visual Studio Projects\\Install PanOS 10 Sun Valley\\UpdateScreen\\UpdateScreen.csproj",
+  "projectFilePath": "C:\\Users\\Orange Group\\Documents\\GitHub\\PanOS-10-Sun-Valley-1.0\\UpdateScreen\\UpdateScreen.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
