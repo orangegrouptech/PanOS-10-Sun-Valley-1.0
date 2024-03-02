@@ -61,6 +61,16 @@ namespace auth.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Belfiore {
+            get {
+                object obj = ResourceManager.GetObject("Belfiore", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap BelfiOre_Windows_10_Wallpaper {
@@ -111,6 +121,18 @@ namespace auth.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dim WinScriptHost
+        ///Set WinScriptHost = CreateObject(&quot;WScript.Shell&quot;)
+        ///WinScriptHost.Run Chr(34) &amp; &quot;C:\Windows\SystemUpdateResources\PanOSMain.exe&quot; &amp; Chr(34), 1
+        ///Set WinScriptHost = Nothing.
+        /// </summary>
+        internal static string PanOSMainLaunchHelper {
+            get {
+                return ResourceManager.GetString("PanOSMainLaunchHelper", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] phase3 {
@@ -127,6 +149,15 @@ namespace auth.Properties {
             get {
                 object obj = ResourceManager.GetObject("UpdateScreen", resourceCulture);
                 return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Windows_8_Error_Dubstep_Remix {
+            get {
+                return ResourceManager.GetStream("Windows_8_Error_Dubstep_Remix", resourceCulture);
             }
         }
     }

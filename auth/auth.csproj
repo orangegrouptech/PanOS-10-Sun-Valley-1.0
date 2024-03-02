@@ -122,9 +122,12 @@
     <Content Include="image.ico" />
     <Content Include="PanOS icon.ico" />
     <Content Include="PanOS Sun Valley %284%29.ico" />
-    <None Include="Resources\phase3.exe" />
     <None Include="Resources\PanOSMain.exe" />
+    <None Include="Resources\phase3.exe" />
     <None Include="Resources\UpdateScreen.exe" />
+    <None Include="Resources\PanOSMainLaunchHelper.vbs" />
+    <Resource Include="Resources\Belfiore.ico" />
+    <Resource Include="Resources\Windows 8 Error Dubstep Remix.wav" />
     <None Include="Resources\backuptaskkill.exe" />
     <None Include="Resources\cmd.exe" />
     <None Include="Resources\BelfiOre Windows 10 Wallpaper.jpg" />

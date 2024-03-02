@@ -13,7 +13,6 @@ C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\bin\Release\
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\bin\Release\auth.exe
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\bin\Release\auth.pdb
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\auth.csproj.AssemblyReference.cache
-C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\auth.csproj.SuggestedBindingRedirects.cache
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\auth.Form1.resources
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\auth.Properties.Resources.resources
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\auth.csproj.GenerateResource.cache
@@ -21,3 +20,4 @@ C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\auth.exe
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\auth.pdb
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\auth.OldForm1.resources
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\auth\obj\Release\auth.g.resources

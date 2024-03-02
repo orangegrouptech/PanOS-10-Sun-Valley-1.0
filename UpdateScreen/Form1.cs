@@ -104,6 +104,7 @@ namespace UpdateScreen
                 this.pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
                 this.MaximizeBox = false;
                 this.CenterToScreen(); //why is everything in american english
+                this.BringToFront();
                 String thisprocessname = Process.GetCurrentProcess().ProcessName;
 
                 if (Process.GetProcesses().Count(p => p.ProcessName == thisprocessname) > 1)

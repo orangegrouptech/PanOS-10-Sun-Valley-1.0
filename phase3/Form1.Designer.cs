@@ -84,6 +84,7 @@ namespace phase3
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MinimumSize = new System.Drawing.Size(1462, 1042);
             this.Name = "Form1";
             this.Text = "PanOS 10 Update Assistant";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

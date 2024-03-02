@@ -20,4 +20,3 @@ Note:
 - All WindowsForms components are not optimised for high DPI displays. I overlooked that when making this malware.
 - You may see a Confused folder in the output directory of the various components. I don't know how up-to-date those versions are, you can probably find some prototypes/private beta versions there, if you can deobfuscate them.)
 - The compiled executables in the output directories might not necessarily be up-to-date.
-- You probably will have to remove the authentication part of the "auth" solution before compiling for it to work.

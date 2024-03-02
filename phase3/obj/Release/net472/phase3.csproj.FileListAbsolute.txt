@@ -14,7 +14,6 @@ C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\bin\Releas
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\bin\Release\net472\phase3.exe
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\bin\Release\net472\phase3.pdb
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.csproj.AssemblyReference.cache
-C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.csproj.SuggestedBindingRedirects.cache
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.Form1.resources
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.Properties.Resources.resources
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.csproj.GenerateResource.cache
@@ -24,3 +23,4 @@ C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Releas
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.csproj.CoreCompileInputs.cache
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.exe
 C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.pdb
+C:\Users\Orange Group\Documents\GitHub\PanOS-10-Sun-Valley-1.0\phase3\obj\Release\net472\phase3.sourcelink.json

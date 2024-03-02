@@ -169,6 +169,7 @@ namespace PanOSMain
         private void Window_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             anchorPoint = PointToScreen(e.GetPosition(this));
+            anchorPoint = new System.Windows.Point(anchorPoint.X / DpiScaleX, anchorPoint.Y / DpiScaleY);
             inDrag = true;
             CaptureMouse();
             e.Handled = true;
@@ -179,6 +180,7 @@ namespace PanOSMain
             if (inDrag)
             {
                 System.Windows.Point currentPoint = PointToScreen(e.GetPosition(this));
+                currentPoint = new System.Windows.Point(currentPoint.X / DpiScaleX, currentPoint.Y / DpiScaleY);
                 this.Left = this.Left + currentPoint.X - anchorPoint.X;
                 this.Top = this.Top + currentPoint.Y - anchorPoint.Y;
                 anchorPoint = currentPoint;
@@ -189,6 +191,16 @@ namespace PanOSMain
         {
             inDrag = false;
             ReleaseMouseCapture();
+        }
+
+        private double DpiScaleX
+        {
+            get { return PresentationSource.FromVisual(this).CompositionTarget.TransformToDevice.M11; }
+        }
+
+        private double DpiScaleY
+        {
+            get { return PresentationSource.FromVisual(this).CompositionTarget.TransformToDevice.M22; }
         }
     }
 }
